@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-root',
+//decorator
+@Component({//Metadados
+  selector: 'app-root', //seletor do componente
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'meuprojeto';
+  nome = 'Cleison';
 }
